@@ -41,7 +41,6 @@ fetch('./posts.json')
     })
     .catch(error => console.log(error));
 
-//Создаем функцию, которая будет очищать поле ввода
 function cleanInputs() {
     document.querySelector('.input__text').value = '';
     document.querySelector('.input__header').value = '';
