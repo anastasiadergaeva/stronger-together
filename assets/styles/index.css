@@ -1,31 +1,52 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'Monserrat'; 
-    src: url(..//font/Montserrat-VariableFont_wght.ttf); 
+  font-family: "Monserrat";
+  src: url(..//font/Montserrat-VariableFont_wght.ttf);
 }
 
-.header{
-    padding: 1rem;
-    background-color: #F4F9E2;
-    font-family: 'Monserrat';
+body {
+  width: 100%;
+  background-color: #f4f9e2;
 }
 
-.nav{
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
+.header {
+  padding: 1rem;
+  font-family: "Monserrat";
 }
 
-.nav__a{
-    text-decoration: none;
-    color: black;
+.nav {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
-.nav__a:hover{
-    text-decoration: underline;
+.nav__a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav__a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  margin: 0 auto;
+  padding: 200px 181px 400px;
+}
+
+h1 {
+  font-size: 48px;
+  color: #22356f;
+  padding-bottom: 50px;
+}
+
+.home__p {
+  width: 403px;
+  font-size: 24px;
+  color: #22356f;
 }
