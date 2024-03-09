@@ -3,6 +3,10 @@
   src: url(..//font/Montserrat-VariableFont_wght.ttf);
 }
 
+body {
+  background-color: #f4f9e2;
+}
+
 .header {
   padding: 1rem;
   font-family: "Monserrat";
@@ -23,9 +27,9 @@
   text-decoration: underline;
 }
 
-.home {
+/* .home {
   padding: 200px 62px;
-}
+} */
 
 .none {
   display: none;
@@ -53,6 +57,10 @@ form {
   flex-direction: column;
   justify-content: center;
   font-size: 12px;
+}
+
+.form__content {
+  padding-left: 20em;
 }
 
 .form__user {
