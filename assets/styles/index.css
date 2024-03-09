@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Monserrat'; 
+    src: url(..//font/Montserrat-VariableFont_wght.ttf); 
+}
+
+.header{
+    padding: 1rem;
+    background-color: #F4F9E2;
+    font-family: 'Monserrat';
+}
+
+.nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.nav__a{
+    text-decoration: none;
+    color: black;
+}
+
+.nav__a:hover{
+    text-decoration: underline;
+}
