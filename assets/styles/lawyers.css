@@ -1,71 +1,89 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'Monserrat'; 
-    src: url(..//font/Montserrat-VariableFont_wght.ttf); 
+    font-family: 'Monserrat';
+    src: url(..//font/Montserrat-VariableFont_wght.ttf);
 }
 
-.header{
+.header {
     padding: 1rem;
     background-color: #f7edf1;
     font-family: 'Monserrat';
 }
 
-.nav{
+.nav {
     width: 80%;
     display: flex;
     justify-content: space-evenly;
 }
 
-.nav__a{
+.nav__a {
     text-decoration: none;
     color: black;
 }
 
-.nav__a:hover{
+.nav__a:hover {
     text-decoration: underline;
 }
 
-.main{
+.main {
     background-color: #f7edf1;
     padding: 1rem;
     font-family: 'Monserrat';
 }
 
-.info-wrapper{
+.info-wrapper {
     text-align: center;
 }
 
-.main__title{
+.main__title {
     margin-bottom: 1rem;
 }
 
-.paragraph{
+.paragraph {
     font-size: 20px;
     margin-bottom: 1rem;
 }
 
-.law{
+.law {
     height: 300px;
 }
 
-.wrapper{
-    
+.wrapper {
+    width: 50%;
+    margin: 0 auto;
 }
 
-.services{
+.services {
     display: flex;
     margin-bottom: 1rem;
     text-align: left;
     align-items: center;
 }
 
-.law__paragraph{
+.law__paragraph {
     font-size: 20px;
     margin-bottom: 1rem;
     margin-left: 1rem;
+}
+
+footer {
+    font-family: 'Monserrat';
+    background-color: #92cad2;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content__1 {
+    padding-left: 150px;
 }
