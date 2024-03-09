@@ -3,30 +3,35 @@
         "userId": 1,
         "id": 1,
         "title": "Как я пережила насилие",
-        "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
+        "body": "Пережив насилие, я нашла в себе силы не только выжить, но и начать новую жизнь.",
+        "fullstory": "Каждый день был исполнен страха и боли, но я решила не оставаться жертвой. С каждым утром я вставала и собирала кусочки своей души, чтобы не потерять себя полностью. Я пережила физическое и психологическое насилие, но никогда не потеряла веру в себя. И сегодня, благодаря тому, что пережила, я сильнее и готова жить на полную катушку, несмотря ни на что."
     },
     {
         "userId": 1,
         "id": 2,
         "title": "Моя история о жизни с абьюзером",
-        "body": "est rerum tempore vitae\nsequi sint nihil reprehenderit dolor beatae ea dolores neque\nfugiat blanditiis voluptate porro vel nihil molestiae ut reiciendis\nqui aperiam non debitis possimus qui neque nisi nulla"
+        "body": "Моя история о жизни с абьюзером, в которой я нашла силы покончить с токсичными отношениями и начать новую главу без страха и манипуляций.",
+        "fullstory": "С момента знакомства с ним, моя жизнь превратилась в ад, где я постоянно испытывала страх, давление и контроль. Я пыталась оправдать его агрессию и принижение, но поняла, что это не любовь. Наконец, я смогла освободиться от его влияния, оторваться от цепей страха и сделать шаг к светлому будущему без насилия и домогательств."
     },
     {
         "userId": 1,
         "id": 3,
         "title": "Воспитание детей",
-        "body": "et iusto sed quo iure\nvoluptatem occaecati omnis eligendi aut ad\nvoluptatem doloribus vel accusantium quis pariatur\nmolestiae porro eius odio et labore et velit aut"
+        "body": "Воспитание детей - история о трудностях, радостях и открытиях в роли родителя, который каждый день учится быть лучшим для своих детей.",
+        "fullstory": "Каждое утро бесконечные вопросы и миллионы поцелуев. Воспитывая своих детей, я сама учусь быть добрее, терпеливее, мудрее. Они - моя жизнь, мои ангелы, и я делаю все возможное, чтобы дать им лучшее. Вместе мы растем, учимся и улыбаемся жизни."
     },
     {
         "userId": 1,
         "id": 4,
         "title": "Как я нашла себя",
-        "body": "ullam et saepe reiciendis voluptatem adipisci\nsit amet autem assumenda provident rerum culpa\nquis hic commodi nesciunt rem tenetur doloremque ipsam iure\nquis sunt voluptatem rerum illo velit"
+        "body": "Искренняя история о поисках себя, своих ценностей и истинного счастья, пройденном пути и новых началах.",
+        "fullstory": "Долгое время я блуждала во тьме, потерянная и одинока, пока не встретила саму себя. Я нашла свое призвание, свою страсть, свою силу. Больше нет места для компромиссов и ложных иллюзий. Я - я, и я готова идти вперед к своей мечте."
     },
     {
         "userId": 1,
         "id": 5,
         "title": "О самореализации",
-        "body": "repudiandae veniam quaerat sunt sed\nalias aut fugiat sit autem sed est\nvoluptatem omnis possimus esse voluptatibus quis\nest aut tenetur dolor neque"
+        "body": "История о самопознании, росте личности и стремлении к воплощению своих мечт.",
+        "fullstory": "Каждый день - это шаг к своей цели, к самому себе. Я открываю новые горизонты, преодолеваю страхи и сомнения, иду навстречу переменам. Мое сердце полно мечтами, а моя душа стремиться к свободе. Самореализация - это мой путь, мой выбор, мое счастье."
     }
 ]
