@@ -42,18 +42,26 @@
 }
 
 .post {
-    display: flex;
+    display: grid;
+    grid-template-areas: "content button";
+    width: 52em;
     gap: 2em;
 }
 
+.post__content {
+    grid-area: content;
+    width: 35em;
+}
+
 .post__button {
-    width: 20em;
+    width: 15em;
     height: 2em;
     padding-top: 0.1em;
     border-radius: 10px;
     background: #F4F9E2;
     font-family: 'Monserrat';
     font-size: 15px;
+    grid-area: button;
 }
 
 .form {

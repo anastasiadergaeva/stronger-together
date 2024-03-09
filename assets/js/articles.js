@@ -1,5 +1,5 @@
 const button = document.querySelector('.input__button');
-const container = document.querySelector('.posts');
+const container = document.querySelector('.articles');
 
 function createPost(post) {
     return `
@@ -15,12 +15,13 @@ function createPost(post) {
 
 function createNewPost(post) {
     const postContainer = document.createElement('div');
-    postContainer.className = 'posts__post'
+    postContainer.className = 'post'
     postContainer.innerHTML = `
-        <div class="posts__post">
-        <h2>${post.title}</h2>
-        <p>${post.body}</p>
+        <div class="post__content">
+            <h2>${post.title}</h2>
+            <p>${post.body}</p>
         </div>
+        <button class="post__button">Перейти к посту</button>
     `;
     container.append(postContainer);
 }
