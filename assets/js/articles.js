@@ -1,12 +1,14 @@
 const button = document.querySelector('.form__button');
 const container = document.querySelector('.articles');
+const form = document.querySelector('.form');
 
 function createPost(post) {
     return `
         <div class="post">
             <div class="post__content">
-                <h2>${post.title}</h2>
-                <p>${post.body}</p>
+                <h2 class="postheader">${post.title}</h2>
+                <p class="postdescription">${post.body}</p>
+                <p class="fullpost notdisplay">${post.fullstory}</p>
             </div>
             <button class="post__button" onClick="testButton()">Перейти к посту</button>
         </div>
@@ -14,7 +16,24 @@ function createPost(post) {
 }
 
 function testButton() {
-    console.log('тест', document.querySelectorAll('.post__button'));
+    const goToPostButtons = document.querySelectorAll('.post__button');
+    const posts = document.querySelectorAll('.post__content');
+
+    posts.forEach((post) => {
+        post.style.display = 'none';
+    });
+    goToPostButtons.forEach((button) => {
+        button.style.display = 'none';
+    });
+
+    form.style.display = 'none';
+    const clickedButton = event.target;
+    const postContent = clickedButton.previousElementSibling;
+    postContent.style.display = 'block';
+    clickedButton.style.display = 'none';
+
+    const fullPostParagraph = postContent.querySelector('.fullpost');
+    fullPostParagraph.classList.remove(fullPostParagraph.classList.item(1));
 }
 
 function createNewPost(post) {
@@ -25,7 +44,7 @@ function createNewPost(post) {
             <h2>${post.title}</h2>
             <p>${post.body}</p>
         </div>
-        <button class="post__button">Перейти к посту</button>
+        <button class="post__button" onClick="testButton()">Перейти к посту</button>
     `;
     container.append(postContainer);
 }
@@ -48,6 +67,7 @@ fetch('./posts.json')
 function cleanInputs() {
     document.querySelector('.input__text').value = '';
     document.querySelector('.input__header').value = '';
+    document.getElementById('story').value = '';
 }
 
 function sendPost() {
@@ -75,8 +95,5 @@ function sendPost() {
 
     cleanInputs()
 }
-
-const goToPostButton = document.querySelector('.post__button');
-console.log(goToPostButton);
 
 button.addEventListener('click', sendPost);

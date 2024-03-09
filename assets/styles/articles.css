@@ -111,3 +111,11 @@
 .share {
     font-family: 'Monserrat';
 }
+
+.notdisplay {
+    display: none;
+}
+
+.fullpost {
+    padding-top: 2em;
+}
