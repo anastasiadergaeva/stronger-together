@@ -35,11 +35,11 @@ body {
 }
 
 .home {
-  margin: 0 auto;
-  padding: 200px 181px;
+  padding: 200px 62px;
 }
 
 h1 {
+  width: 426px;
   font-size: 48px;
   color: #22356f;
   padding-bottom: 50px;
@@ -51,21 +51,24 @@ h1 {
   color: #22356f;
 }
 
+.home__img {
+  width: 500px;
+}
+
 img {
   margin-top: -240px;
-  margin-left: 627px;
-  width: 850px;
-  height: 530px;
+  margin-left: 640px;
+  width: 100%;
+  height: 303px;
   border-radius: 282px;
 }
 
 footer {
-  font-family: 'Monserrat';
+  font-family: "Monserrat";
   background-color: #92cad2;
   color: #333;
   text-align: center;
   padding: 20px;
-  width: 100%;
 }
 
 .footer-content p {
