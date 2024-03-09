@@ -3,9 +3,34 @@
   src: url(..//font/Montserrat-VariableFont_wght.ttf);
 }
 
+.header {
+  padding: 1rem;
+  font-family: "Monserrat";
+}
+
+.nav {
+  width: 90%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav__a {
+  text-decoration: none;
+  color: black;
+}
+
+.nav__a:hover {
+  text-decoration: underline;
+}
+
+.home {
+  padding: 200px 62px;
+}
+
 .none {
   display: none;
 }
+
 .active {
   display: flex;
 }
@@ -29,15 +54,34 @@ form {
   justify-content: center;
   font-size: 12px;
 }
+
 .form__user {
   margin-bottom: 10px;
 }
+
 #name-inp {
   width: 250px;
 }
+
 #send {
   margin-top: 10px;
   margin-bottom: 10px;
   border-radius: 5px;
   background: #f4f9e2;
+}
+
+footer {
+  font-family: "Monserrat";
+  background-color: #92cad2;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.footer-content__1 {
+  padding-left: 150px;
 }
