@@ -1,66 +1,66 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'Monserrat'; 
-    src: url(..//font/Montserrat-VariableFont_wght.ttf); 
+    font-family: 'Monserrat';
+    src: url(..//font/Montserrat-VariableFont_wght.ttf);
 }
 
-.header{
+.header {
     padding: 1rem;
     background-color: #F4F9E2;
     font-family: 'Monserrat';
 }
 
-.nav{
+.nav {
     width: 80%;
     display: flex;
     justify-content: space-evenly;
 }
 
-.nav__a{
+.nav__a {
     text-decoration: none;
     color: black;
 }
 
-.nav__a:hover{
+.nav__a:hover {
     text-decoration: underline;
 }
 
-.main{
+.main {
     background-color: #F4F9E2;
     padding: 1rem;
 }
 
-.info-wrapper{
+.info-wrapper {
     text-align: center;
 }
 
-.main__title{
+.main__title {
     font-family: 'Monserrat';
     margin-bottom: 1rem;
 }
 
-.paragraph{
+.paragraph {
     font-family: 'Monserrat';
     font-size: 20px;
 }
 
-.psy-img{
+.psy-img {
     width: 70%;
 }
 
 
-.card-container{
+.card-container {
     display: flex;
     justify-content: space-evenly;
     margin-top: 1rem;
 }
 
-.card-item{
+.card-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,13 +68,13 @@
     border: 1px solid grey;
 }
 
-.foto{
+.foto {
     width: 70%;
     border-radius: 50%;
     margin-top: 10px;
 }
 
-.participants-name{
+.participants-name {
     font-family: 'Monserrat';
     font-size: 24px;
     font-weight: 600;
@@ -82,7 +82,7 @@
     margin-top: 2rem;
 }
 
-.participants-title{
+.participants-title {
     font-family: 'Monserrat';
     font-size: 20px;
     font-weight: 400;
@@ -92,7 +92,7 @@
     margin-top: 0.5rem;
 }
 
-.btn-details{
+.btn-details {
     width: 113px;
     height: 35px;
     border-radius: 62px;
@@ -106,7 +106,24 @@
     margin: 1rem 0;
 }
 
-.btn-details:hover{
+.btn-details:hover {
     background-color: #3057A2;
     color: #FFFFFF;
+}
+
+footer {
+    font-family: 'Monserrat';
+    background-color: #92cad2;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-content__1 {
+    padding-left: 150px;
 }
