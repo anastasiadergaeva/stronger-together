@@ -49,6 +49,7 @@ h1 {
   width: 403px;
   font-size: 24px;
   color: #22356f;
+  font-family: "Monserrat";
 }
 
 .home__img {
@@ -73,4 +74,8 @@ footer {
 
 .footer-content p {
   margin: 5px 0;
+}
+
+h1 {
+  font-family: "Monserrat";
 }
