@@ -62,6 +62,7 @@
     font-family: 'Monserrat';
     font-size: 15px;
     grid-area: button;
+    cursor: pointer;
 }
 
 .form {
@@ -89,7 +90,7 @@
     font-family: 'Monserrat';
 }
 
-.input__button {
+.form__button {
     cursor: pointer;
     font-family: 'Monserrat';
     width: 10em;
@@ -99,4 +100,14 @@
     background: #F4F9E2;
     font-family: 'Monserrat';
     font-size: 15px;
+}
+
+#story {
+    resize: none;
+    width: 409px;
+    height: 150px;
+}
+
+.share {
+    font-family: 'Monserrat';
 }

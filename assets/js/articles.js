@@ -1,4 +1,4 @@
-const button = document.querySelector('.input__button');
+const button = document.querySelector('.form__button');
 const container = document.querySelector('.articles');
 
 function createPost(post) {
@@ -8,9 +8,13 @@ function createPost(post) {
                 <h2>${post.title}</h2>
                 <p>${post.body}</p>
             </div>
-            <button class="post__button">Перейти к посту</button>
+            <button class="post__button" onClick="testButton()">Перейти к посту</button>
         </div>
     `;
+}
+
+function testButton() {
+    console.log('тест', document.querySelectorAll('.post__button'));
 }
 
 function createNewPost(post) {
@@ -56,18 +60,23 @@ function sendPost() {
         userId: 1,
     }
 
-    fetch('https://jsonplaceholder.typicode.com/posts', {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json; charset=UTF-8',
-        },
-        body: JSON.stringify(postData),
-    })
-        .then(response => response.json())
-        .then(data => createNewPost(data))
-        .catch(error => console.log(error));
+    if (header && text) {
+        fetch('https://jsonplaceholder.typicode.com/posts', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json; charset=UTF-8',
+            },
+            body: JSON.stringify(postData),
+        })
+            .then(response => response.json())
+            .then(data => createNewPost(data))
+            .catch(error => console.log(error));
+    }
 
     cleanInputs()
 }
+
+const goToPostButton = document.querySelector('.post__button');
+console.log(goToPostButton);
 
 button.addEventListener('click', sendPost);
