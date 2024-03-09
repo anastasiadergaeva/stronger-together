@@ -32,6 +32,7 @@
 
 .main{
     background-color: #F4F9E2;
+    padding: 1rem;
 }
 
 .info-wrapper{
@@ -40,7 +41,7 @@
 
 .main__title{
     font-family: 'Monserrat';
-    padding: 1rem 0;
+    margin-bottom: 1rem;
 }
 
 .paragraph{
@@ -52,14 +53,60 @@
     width: 80%;
 }
 
+
 .card-container{
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-evenly;
+    margin-top: 1rem;
+}
+
+.card-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid grey;
+}
+
+.foto{
+    width: 70%;
+    border-radius: 50%;
+    margin-top: 10px;
+}
+
+.participants-name{
+    font-family: 'Monserrat';
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29px;
     margin-top: 2rem;
 }
 
-.card-img-top{
-   max-height: 285px;
+.participants-title{
+    font-family: 'Monserrat';
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #313131;
+    opacity: 0.7;
+    margin-top: 0.5rem;
+}
 
+.btn-details{
+    width: 113px;
+    height: 35px;
+    border-radius: 62px;
+    border: 1px solid #3057A2;
+    background-color: #F4F9E2;
+    font-family: 'Monserrat';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 19px;
+    color: #3057A2;
+    margin: 1rem 0;
+}
+
+.btn-details:hover{
+    background-color: #3057A2;
+    color: #FFFFFF;
 }
