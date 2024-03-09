@@ -1,13 +1,33 @@
+document.getElementById('send-message').addEventListener('submit', function (event) {
+    event.preventDefault();
+
+    let userName = document.getElementById('name-inp').value;
+    let typeMessage = document.getElementById('status').value;
+    if (typeMessage === 'sos') {
+        let arrImput = sos.querySelectorAll('input');
+
+        arrImput.forEach(item => {
+            console.log(item.value);
+        })
+
+    } else {
+        let profession = document.getElementById('profession').value
+        let arrImputProfi = help.querySelectorAll('input').forEach(item => {
+            console.log(item.value);
+        })
+    }
+    console.log(userName, typeMessage);
+});
 
 const sos = document.querySelector('.form-sos__none');
 const help = document.querySelector('.form-help__none');
 const statusMsg = document.querySelector('#status');
 const contact = document.querySelector('#contact');
-const btn = document.querySelector('button');
+// const btn = document.querySelector('button');
 
 statusMsg.addEventListener('change', getTypeMessage);
 contact.addEventListener('change', getInputContact);
-btn.addEventListener('click', sumbitForm);
+//btn.addEventListener('click', sumbitForm);
 
 function getTypeMessage() {
 
@@ -57,6 +77,3 @@ function getInputContact() {
     }
 }
 
-function sumbitForm() {
-
-}
