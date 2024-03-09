@@ -1,31 +1,94 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 @font-face {
-    font-family: 'Monserrat'; 
-    src: url(..//font/Montserrat-VariableFont_wght.ttf); 
+    font-family: 'Monserrat';
+    src: url(..//font/Montserrat-VariableFont_wght.ttf);
 }
 
-.header{
+.header {
     padding: 1rem;
     background-color: #F4F9E2;
     font-family: 'Monserrat';
 }
 
-.nav{
+.nav {
     width: 80%;
     display: flex;
     justify-content: space-evenly;
 }
 
-.nav__a{
+.nav__a {
     text-decoration: none;
     color: black;
 }
 
-.nav__a:hover{
+.nav__a:hover {
     text-decoration: underline;
+}
+
+.main {
+    padding: 2em 10em 0 10em;
+}
+
+.articles {
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+    font-family: 'Monserrat';
+}
+
+.post {
+    display: flex;
+    gap: 2em;
+}
+
+.post__button {
+    width: 20em;
+    height: 2em;
+    padding-top: 0.1em;
+    border-radius: 10px;
+    background: #F4F9E2;
+    font-family: 'Monserrat';
+    font-size: 15px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    padding-top: 2em;
+}
+
+.form__header {
+    font-family: 'Monserrat';
+}
+
+
+.input__header {
+    width: 200px;
+    height: 20px;
+    font-size: 12px;
+}
+
+.input__text {
+    width: 200px;
+    height: 20px;
+    font-size: 10px;
+    font-family: 'Monserrat';
+}
+
+.input__button {
+    cursor: pointer;
+    font-family: 'Monserrat';
+    width: 10em;
+    height: 2em;
+    padding-top: 0.1em;
+    border-radius: 10px;
+    background: #F4F9E2;
+    font-family: 'Monserrat';
+    font-size: 15px;
 }
