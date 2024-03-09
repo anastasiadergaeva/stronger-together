@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./form.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form">
+      <div class="form__title">Заполните поля формы</div>
+      <form action="" class="add-contact">
+        <div>
+          <input type="text" id="name-inp" placeholder="Имя Фамилия" />
+        </div>
+        <div>
+            <div class="status">
+          <select id="status">
+            <option value="none">Выберите тип обращения</option>
+            <option value="sos">Мне нужна помощь</option>
+            <option value="help">Я хочу помочь</option>
+          </select>
+        </div>
+          <div class="form-sos__none none">
+            <div class="title">Как с вами связаться?</div>
+            <select class="sos active" id="contact">
+              <option value="none">Выберите</option>
+              <option value="email">e-mail</option>
+              <option value="phone">телефон</option>
+              <option value="tlgm">telegram</option>
+              </select>
+              <div class="contact__none">
+                <input class="email__none none" type="email" placeholder="email@mail.com" />
+              
+        
+                <input class="phone__none none" type="tel" placeholder="+7-999-999-88-77" />
+              
+              
+                <input  class="tlgm__none none" type="text" placeholder="@nickname" />
+             
+            </div>
+        </div>
+        <div class="form-help__none none">
+            <div class="title">Оставьте свои данные</div>         
+            <select class="help">
+              <option name="lowyer">юрист</option>
+              <option name="doctor">психолог</option>
+              <option name="volunteer">волонтер</option>
+              </select>
+              <input type="text" placeholder="Ваш e-mail" />
+        </div>
+<button type="submit">Отправить</button>
+      </form>
+    </div>
+
+    <script src="form.js"></script>
+  </body>
+</html>
