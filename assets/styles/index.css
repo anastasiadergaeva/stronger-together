@@ -36,7 +36,7 @@ body {
 
 .home {
   margin: 0 auto;
-  padding: 200px 181px 400px;
+  padding: 200px 181px;
 }
 
 h1 {
@@ -49,4 +49,28 @@ h1 {
   width: 403px;
   font-size: 24px;
   color: #22356f;
+}
+
+img {
+  margin-top: -240px;
+  margin-left: 627px;
+  width: 850px;
+  height: 530px;
+  border-radius: 282px;
+}
+
+footer {
+  background-color: #92cad2;
+  color: #333;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+}
+
+.footer-content p {
+  margin: 5px 0;
+}
+
+.footer-content__1 {
+  padding-left: 150px;
 }
