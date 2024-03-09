@@ -66,3 +66,29 @@
 .form__header {
     font-family: 'Monserrat';
 }
+
+
+.input__header {
+    width: 200px;
+    height: 20px;
+    font-size: 12px;
+}
+
+.input__text {
+    width: 200px;
+    height: 20px;
+    font-size: 10px;
+    font-family: 'Monserrat';
+}
+
+.input__button {
+    cursor: pointer;
+    font-family: 'Monserrat';
+    width: 10em;
+    height: 2em;
+    padding-top: 0.1em;
+    border-radius: 10px;
+    background: #F4F9E2;
+    font-family: 'Monserrat';
+    font-size: 15px;
+}
