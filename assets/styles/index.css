@@ -20,7 +20,7 @@ body {
 }
 
 .nav {
-  width: 80%;
+  width: 90%;
   display: flex;
   justify-content: space-evenly;
 }
@@ -60,7 +60,7 @@ img {
 }
 
 footer {
-  font-family: 'Monserrat';
+  font-family: "Monserrat";
   background-color: #92cad2;
   color: #333;
   text-align: center;
