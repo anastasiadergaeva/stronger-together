@@ -19,14 +19,17 @@
     </header>
     <div class="main">
         <div class="articles"></div>
-        <div class="posts"></div>
         <form class="form" onsubmit='return false'>
             <h1 class="form__header">Создайте новый пост</h1>
-            <div class="input">
+            <div class="form__input">
                 <input type="text" placeholder="Заголовок поста" class="input__header">
-                <input type="text" placeholder="Текст поста" class="input__text">
-                <button class="input__button">Создать пост</button>
+                <input type="text" placeholder="Кратко о Вашей истории" class="input__text">
             </div>
+            <div class="form__story">
+                <p class="share">Поделитесь своей историей:</p>
+                <textarea name="story" id="story"></textarea>
+            </div>
+            <button class="form__button">Создать пост</button>
         </form>
     </div>
     <script src="./assets/js/articles.js"></script>
